@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f5f5f5;
+  color: #333;
+}
+
+/* HEADER */
+header {
+  background: #111;
+  color: #fff;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header a {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(to right, #000, #333);
+  color: #fff;
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 42px;
+}
+
+.hero p {
+  margin: 20px 0;
+}
+
+.hero button {
+  padding: 12px 25px;
+  background: #ff9800;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* PRODUCTS */
+.container {
+  padding: 40px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+}
+
+.product {
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.product h3 {
+  margin: 10px 0;
+}
+
+.product button {
+  background: #111;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+
+/* CART */
+.cart-item {
+  display: flex;
+  gap: 20px;
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+.cart-item img {
+  width: 100px;
+}
+
+/* FORMS */
+form {
+  background: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: auto;
+}
+
+form input, form select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+form button {
+  background: #ff9800;
+  border: none;
+  padding: 12px;
+  width: 100%;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+.product p {
+  font-size: 14px;
+  color: #555;
+  margin: 8px 0;
+}
+
+.product strong {
+  display: block;
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.product:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+}
+
